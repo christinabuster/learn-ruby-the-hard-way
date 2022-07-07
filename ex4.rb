@@ -19,7 +19,13 @@ carpool_capacity = cars_driven * space_in_a_car
 # divided by # cars available(cars_driven)
 average_passengers_per_car = passengers / cars_driven
 
-#returns cars variable
+# The #{} operator technically performs expression substitution inside a string literal. 
+# The #{} is a literal is the operator used for interpolation inside double-quoted strings the same way 
+#that the backticks or $() construct would be used in Bash. From a practical point of view, the 
+#expression inside the literal is evaluated, and then the entire #{} expression (including both 
+#the operator and the expression it contains) is replaced in situ with the result.
+
+#returns cars variable  
 puts "there are #{cars} cars available."
 #returns drivers variable
 puts "there are only #{drivers} drivers available"
