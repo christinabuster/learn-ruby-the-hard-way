@@ -8,7 +8,7 @@
 
 #\t creates a tab indentation when returing the string
 tabby_cat = "\tI'm tabbed in."
-vertical_indent = "\vI'm tabbed /bvertically and \shave a space"
+vertical_indent = "\vI'm tabbed vertically and \shave a space"
 # \n splits the string in two at the \n and puts the second half on another line
 persian_cat = "I'm split\non a line."
 # seperate each word with a \
