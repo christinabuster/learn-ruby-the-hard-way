@@ -5,3 +5,4 @@ formatter = "%s %s %s %s"
 
 # create puts to return formatter variable with the value of 1, 2, 3, 4
 puts formatter % [1, 2, 3, 4]
+puts formatter % ["one", "two", "three", "four"]
