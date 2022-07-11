@@ -1,3 +1,8 @@
+# %d will give a whole number
+# %s gives a string
+# %f will give a number with decimals, %0.2 the 2 indicated to keep only 2 decimal places
+
+score = 78.5431
 name = 'Zed A. Shaw'
 age = 35 
 height = 74 #height in inches
@@ -8,6 +13,8 @@ eyes = 'blue'
 teeth = 'white'
 hair = 'brown'
 
+# demonstrate the use of a float format specifier
+puts "The average score is %0.2f" % [score]
 puts "the beginning of the excersize 5 with extra credit"
 puts "lets talk about %s." % name
 puts "hes %d inches tall or %d centimeters tall" % [height, height_cm]
