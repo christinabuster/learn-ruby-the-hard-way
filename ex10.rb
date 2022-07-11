@@ -1,10 +1,6 @@
-# escape sequences and strings going across multiple lines
-
-# \n is an "escape sequence" the \ (back-slash) character is a way to put difficult to type characters into a string.
-
-# using escape sequence to include "double quotes" with in a string, called escape double-quotes
-# "I am 6'2\" tall."
-# 'I am 6\'2" tall.'
+# using escape sequence to include
+#this is to escape double quotes "I am 6'2\" tall."
+#this is to escape single quotes 'I am 6\'2" tall.'
 
 #\t creates a tab indentation when returing the string
 tabby_cat = "\tI'm tabbed in."
