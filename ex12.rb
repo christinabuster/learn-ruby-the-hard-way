@@ -32,3 +32,14 @@ puts num2.to_f
 range_to_array = (0..4)
 
 puts range_to_array.to_a()
+
+# script for money
+puts "Start with a number, how about 103.40? Then I will give you 10% of that number: "
+
+#change user input to a float number
+amount = gets.chomp.to_f
+# multiple the amount by .1 to get 10% of the original value then round that number to the 2 decimal place to represent dollars and cents
+ten_percent = (amount * 0.1).round(2)
+
+#return the amount * 10%
+puts "10% back of the $#{amount} is $#{ten_percent}"
