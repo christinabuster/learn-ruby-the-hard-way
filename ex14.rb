@@ -1,5 +1,6 @@
 #prompting and passing
 
+# declares variables for the argument variable
 user = ARGV.first
 # defines a variable to a symbol
 prompt = '< '
