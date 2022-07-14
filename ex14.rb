@@ -45,3 +45,11 @@ You live in #{lives}. Not sure where that is.
 And you have a #{computer} computer. Nice. 
 So you think it is a #{good_bad} computer. 
 """
+
+# using heredoc with interpolation to print the multi-line string.
+puts <<MESSAGE
+Alright, #{user} so you said #{likes} about liking me.
+You live in #{lives}. Not sure where that is.
+And you have a #{computer} computer. Nice. 
+So you think it is a #{good_bad} computer.
+MESSAGE
